@@ -40,7 +40,7 @@ public class Bank
     /**
      * Driver for the Bank Application.
      */
-    public static void main(String [] args) {
+    public static <String> void main(String [] args) {
 
         // Initialize required services
         Banking bankService = new BankService("Partners Federal Credit Union", 256074974, 500135210, 100769310);
